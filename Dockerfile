@@ -9,4 +9,4 @@ RUN rc-update add vsftpd default
 
 EXPOSE 21
 
-ENTRYPOINT ["/bin/start_vsftpd.sh"]
+ENTRYPOINT ["/bin/start_ftp.sh"]
