@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Fabien Buthod-Garcon
 
-RUN apk add vsftpd openrc
+RUN apk add vsftpd openrc openssl
 
 COPY srcs/start_ftp.sh /bin/start_ftp.sh
 COPY srcs/vsftpd.conf /etc/vsftpd/vsftpd.conf
